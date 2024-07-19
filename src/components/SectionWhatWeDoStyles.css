@@ -1,0 +1,82 @@
+.cards-wrapper{
+  position: relative;
+  width: 100%;
+  min-height: 40vh;
+  background: var(--partly-bg-color);
+  margin-top: 3%;
+}
+
+.cards-wrapper h3{
+  text-align: center;
+  font-size: 2.3rem;
+  color: var(--main-color-theme);
+  padding-top: 20px;
+}
+
+.cards-wrapper .box-card{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-card .card{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.box-card .card i{
+  color: var(--nature-green);
+  font-size: 3rem;
+}
+
+.box-card .card h4{
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.box-card .card p{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.box-card .card a{
+  text-decoration: none;
+  padding-top: 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--nature-green);
+}
+
+.box-card .card a i{
+  font-size: .9rem;
+  color: var(--nature-green);
+}
+
+.box-card .card a:hover{
+  color: var(--nav-content-color);
+  text-decoration: underline;
+}
+
+.box-card .card a:hover i{
+  color: var(--nav-content-color);
+}
+
+@media (max-width: 330px) {
+  .cards-wrapper{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+}
