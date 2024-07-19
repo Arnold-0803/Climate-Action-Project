@@ -11,7 +11,7 @@ import QuestionAndAnswers from "./pages/Other/Q&A";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Climate-Action-Project">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
