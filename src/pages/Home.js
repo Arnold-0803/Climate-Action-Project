@@ -8,10 +8,12 @@ import Mission from "../components/SectionMission";
 import CounterElement from "../components/SectionCount";
 import Gallery from "../components/SectionGallery";
 import Testimonials from "../components/SectionTestimonials";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <div className="homepage">
+      <Navbar/>
       <Carousel
         img1={image1}
         img2={image2}

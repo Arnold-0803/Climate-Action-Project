@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Other/Projects";
@@ -12,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Router basename="/Climate-Action-Project">
-        <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/others/projects" element={<Projects/>}/>
