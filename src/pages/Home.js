@@ -12,7 +12,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div className="homepage">
+    <div>
       <Navbar/>
       <Carousel
         img1={image1}

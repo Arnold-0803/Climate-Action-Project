@@ -58,6 +58,13 @@
   padding-bottom: 5px;
 }
 
+.gallery-box .card .card-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .gallery-box .card a{
   display: block;
   width: 1px;

@@ -13,9 +13,11 @@ const Gallery = () => {
             </div>
             <h4>{item.title}</h4>
             <p>{item.body}</p>
-            <a href={item.link}>
-              <i className="fa-solid fa-arrow-right"></i>
-            </a>
+            <div className="card-btn">
+              <a href={item.link}>
+                <i className="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
           </div>
         ))}
       </div>

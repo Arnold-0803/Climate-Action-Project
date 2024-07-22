@@ -1,7 +1,7 @@
 export const GalleryData = [
   {
     title: "Seedbed",
-    image: "../public/images/gallery1.jpg",
+    image: "./images/gallery1.jpg",
     body: "Lorem ipsum dolor sit amet consectetur",
     link: ""
   },

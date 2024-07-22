@@ -1,0 +1,28 @@
+.about-wrapper{
+  padding: 60px;
+  background: linear-gradient(rgba(51, 51, 51, 1), rgba(51, 51, 51, .5));
+}
+
+.about-wrapper .content-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.content-box h3{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  color: var(--nature-green);
+}
+
+.content-box h3 i{
+  color: #fff;
+}
+
+.content-box p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}

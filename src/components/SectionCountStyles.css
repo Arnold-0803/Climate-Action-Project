@@ -84,12 +84,13 @@
   font-size: 2.3rem;
   font-weight: bold;
   --webkit-background-clip: text;
-  color: transparent;
+  color: #fff;
   -webkit-text-stroke: 2px #fff;
 }
 
 .counter p{
   font-weight: 900;
+  font-size: 1.2rem;
   color: var(--writing-color);
 }
 
