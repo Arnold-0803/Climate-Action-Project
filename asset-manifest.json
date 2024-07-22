@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Climate-Action-Project/static/css/main.bda4d705.css",
-    "main.js": "/Climate-Action-Project/static/js/main.8c674d2c.js",
+    "main.css": "/Climate-Action-Project/static/css/main.5a00cda5.css",
+    "main.js": "/Climate-Action-Project/static/js/main.f6e47138.js",
+    "static/media/image2prime.jpg": "/Climate-Action-Project/static/media/image2prime.869f49155e7a8773f5ea.jpg",
     "static/media/image5.jpg": "/Climate-Action-Project/static/media/image5.7b632be1a94b9e59a150.jpg",
     "static/media/matthew-smith-Rfflri94rs8-unsplash.jpg": "/Climate-Action-Project/static/media/matthew-smith-Rfflri94rs8-unsplash.91ce35ec2d80c7a4bf31.jpg",
     "static/media/image7.jpg": "/Climate-Action-Project/static/media/image7.08165b649e0dc6c32e43.jpg",
     "static/media/image1prime.jpg": "/Climate-Action-Project/static/media/image1prime.36b76bca811dac8f0386.jpg",
-    "static/media/jpg": "/Climate-Action-Project/static/media/e0d9a6842c04e4e6d7ac6263f8e98c91.a8f922149f30f04e67e1.jpg",
+    "static/media/image4prime.jpg": "/Climate-Action-Project/static/media/image4prime.f25f4fd5cda74b391e8b.jpg",
+    "static/media/image3prime.jpg": "/Climate-Action-Project/static/media/image3prime.259976ea3ac3a40d3ffd.jpg",
     "static/media/image6.jpeg": "/Climate-Action-Project/static/media/image6.c386d2ca4b8189911bad.jpeg",
+    "static/media/image4.jpeg": "/Climate-Action-Project/static/media/image4.64b9d2c1fae8156b16b1.jpeg",
     "index.html": "/Climate-Action-Project/index.html",
-    "main.bda4d705.css.map": "/Climate-Action-Project/static/css/main.bda4d705.css.map",
-    "main.8c674d2c.js.map": "/Climate-Action-Project/static/js/main.8c674d2c.js.map"
+    "main.5a00cda5.css.map": "/Climate-Action-Project/static/css/main.5a00cda5.css.map",
+    "main.f6e47138.js.map": "/Climate-Action-Project/static/js/main.f6e47138.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda4d705.css",
-    "static/js/main.8c674d2c.js"
+    "static/css/main.5a00cda5.css",
+    "static/js/main.f6e47138.js"
   ]
 }
