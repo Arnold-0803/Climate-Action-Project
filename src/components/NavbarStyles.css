@@ -21,7 +21,7 @@ nav a{
 
 nav a h2{
   letter-spacing: -4px;
-  font-family: "Kanit", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: var(--nature-green);
   font-size: 2rem;
   font-weight: 700;
@@ -29,6 +29,7 @@ nav a h2{
 
 h2 span{
   color: var(--nav-content-color);
+  font-family: "Kanit", sans-serif;
 }
 
 ul{

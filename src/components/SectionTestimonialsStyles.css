@@ -64,7 +64,10 @@
 
 @media (max-width: 769px) {
   .testimonial{
-    height: 450px;
+    height: 340px;
+  }
+  .testimonial-swiper .testimonial{
+    padding: 10px;
   }
 }
 
@@ -72,14 +75,12 @@
   .testimonial-wrapper{
     margin-top: 910%;
   }
-
   .testimonial{
-    height: 400px;
+    height: 305px;
   }
-
-  /* .testimonial img{
-    width: 100px;
-    height: 100px;
-  } */
+  .testimonial img{
+    width: 90px;
+    height: 90px;
+  }
 }
 
