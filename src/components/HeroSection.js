@@ -11,6 +11,7 @@ const Hero = (props) => {
           <h3>{props.heading}</h3>
           <p>{props.body}</p>
         </div>
+        <div className="gradient"></div>
       </div>
     </div>
   );

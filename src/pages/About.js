@@ -39,15 +39,7 @@ const About = () => {
           consectetur adipisicing elit. 
           Et suscipit necessitatibus iste maiores, 
           molestias provident dolorem odio accusamus 
-          quidem nulla sed natus minus architecto 
-          consequuntur aspernatur officiis incidunt 
-          dolores facere.Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. 
-          Et suscipit necessitatibus iste maiores, 
-          molestias provident dolorem odio accusamus 
-          quidem nulla sed natus minus architecto 
-          consequuntur aspernatur officiis incidunt 
-          dolores facere."/>
+          consectetur adipisicing elit."/>
     </div>
   );
 }

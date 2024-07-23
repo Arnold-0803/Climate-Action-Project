@@ -33,14 +33,14 @@
 .card .card-image{
   width: 100%;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   overflow: hidden;
 }
 
 .gallery-box .card-image img{
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   transition: .3s ease-in-out;
 }
 

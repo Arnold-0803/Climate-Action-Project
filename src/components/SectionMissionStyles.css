@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   min-height: 40vh;
-  margin-top: 3%;
+  margin-top: 2%;
   padding: 20px 6%;
   border-radius: 8px;
   border: 3px solid var(--nature-green);
@@ -88,6 +88,18 @@
 
 
 
+@media (min-width: 352px) and (max-width: 600px) {
+  .mission-section{
+    margin-top: -18%;
+  }
+}
+
+@media (max-width: 352px) {
+  .mission-section{
+    margin-top: -18%;
+  }
+}
+
 @media (max-width: 650px) {
 
   .mission-section .container{
@@ -115,7 +127,6 @@
 }
 
 @media (max-width: 820px) {
-
   .container .content p{
     font-size: 1.1rem;
   }

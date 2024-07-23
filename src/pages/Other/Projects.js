@@ -1,6 +1,6 @@
 import Hero from "../../components/HeroSection";
 import Navbar from "../../components/Navbar";
-import img from "../../photos/image5.jpg"
+import img from "../../photos/image5prime.jpg"
 
 const Projects = () => {
   return (
