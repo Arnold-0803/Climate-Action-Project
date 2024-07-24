@@ -106,7 +106,16 @@
 
 @media (max-width: 330px) {
   .counter-element{
-    margin-top: 740%;
+    margin-top: 720%;
+    background-image: linear-gradient(rgba(141, 196, 77, 0.4), rgba(255, 255, 255, 0.4)), url(../photos/phone-bg.jpg);
+  }
+}
+@media (max-width: 550px) {
+  .counter-element{
+    background-image: linear-gradient(rgba(141, 196, 77, 0.4), rgba(255, 255, 255, 0.4)), url(../photos/phone-bg.jpg);
+  }
+  .counter h1{
+    font-size: 1.5rem;
   }
 }
 
