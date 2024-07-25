@@ -1,17 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const MenuItem = ({item}) => {
 
   const [showSubnenu, setShowSubmenu] = useState(false);
-  const [hover, setHover] = useState(true);
 
   const handleMouseEnter = () => {
-    setHover(false);
+    setShowSubmenu(true);
   }
 
   const handleMouseLeave = () => {
-    setHover(true);
+    setShowSubmenu(false);
   }
 
   return (
@@ -19,15 +18,15 @@ const MenuItem = ({item}) => {
       onMouseEnter={() => setShowSubmenu(true)}
       onMouseLeave={() => setShowSubmenu(false)}
     >
-      <Link 
+      <NavLink 
         to={item.link}
         onMouseEnter = {handleMouseEnter}
         onMouseLeave = {handleMouseLeave}
         className="menu-links"
       >
         {item.itemName}
-        <i className={hover ? item.icondown : item.iconup}></i>
-      </Link >
+        <i className={showSubnenu ? item.iconup : item.icondown}></i>
+      </NavLink >
       {item.submenu && showSubnenu && (
         <div
           onMouseLeave = {handleMouseLeave}
@@ -37,7 +36,7 @@ const MenuItem = ({item}) => {
           <ul>
             {item.submenu.map((subItem, index) => (
               <li key={index}>
-                <Link to={subItem.link}>{subItem.itemName}</Link>
+                <NavLink to={subItem.link}>{subItem.itemName}</NavLink>
               </li>
             )) }
           </ul>

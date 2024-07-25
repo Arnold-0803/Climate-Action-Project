@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   background: var(--partly-bg-color);
+  padding: 2% 0 5%;
 }
 
 .contact-us-wrapper .contact-content{
@@ -11,7 +12,6 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 2%;
 }
 
 .contact-content .contact-form,
@@ -32,7 +32,7 @@
 .contact-form form{
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 60px 30px;
 }
 
 .contact-form form input, form textarea{
@@ -110,6 +110,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 0;
 }
 
 .details .social-media a{
@@ -198,14 +199,10 @@
 
 .form-box form input{
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
   outline: none;
   border-radius: 8px;
   font-size: 1.3rem;
-  text-align: center;
 }
 
 .form-box form .subscription-email{

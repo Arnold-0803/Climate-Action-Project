@@ -1,0 +1,125 @@
+.footer-wrapper{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  min-height: 10vh;
+  border-top: 2px solid var(--main-color-theme);
+}
+
+.footer-wrapper .footer-box{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+.footer-box .footer-content{
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content h5{
+  font-size: 1.3rem;
+  color: var(--nature-green);
+  padding: 5px 0;
+}
+
+.footer-content h5 span{
+  color: var(--main-color-theme);
+  font-family: "Kanit", sans-serif;
+}
+
+.footer-content p{
+  color: var(--black-writing);
+  font-weight: 600;
+}
+
+.footer-content h6{
+  font-size: 1.2rem;
+  color: var(--main-color-theme);
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer-content .social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.social-media a i{
+  width: 35px;
+  height: 35px;
+  background: var(--nature-green);
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-writing);
+  border-radius: 6px;
+  font-size: 1.4rem;
+  border: 2px solid var(--nature-green);
+  transition: 0.5s ease-in-out;
+}
+
+.social-media a i:hover{
+  background: var(--white-writing);
+  color: var(--nature-green);
+}
+
+.footer-content .footer-links{
+  padding: 3px 0;
+  color: var(--main-color-theme);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.footer-content .footer-links:hover{
+  text-decoration: underline;
+}
+
+.footer-content .location{
+  padding: 3px 0;
+  color: var(--main-color-theme);
+}
+
+.footer-wrapper .copyright-wrapper{
+  width: 100%;
+  padding: 15px;
+  background: var(--main-color-theme);
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-wrapper .copyright-text{
+  color: var(--white-writing);
+}
+
+.copyright-wrapper .privacy-policy a{
+  color: var(--white-writing);
+}
+
+.copyright-wrapper .privacy-policy a:hover{
+  color: var(--black-writing);
+  text-decoration: underline;
+}
+
+.privacy-policy span{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white-writing);
+}
+
+
+

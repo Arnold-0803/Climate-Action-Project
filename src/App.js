@@ -6,11 +6,13 @@ import OurTeam from "./pages/Other/OurTeam";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import QuestionAndAnswers from "./pages/Other/Q&A";
+import ScrollToTop from "./assets/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router basename="/Climate-Action-Project">
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/others/projects" element={<Projects/>}/>

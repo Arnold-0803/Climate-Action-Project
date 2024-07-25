@@ -9,6 +9,7 @@ import CounterElement from "../components/SectionCount";
 import Gallery from "../components/SectionGallery";
 import Testimonials from "../components/SectionTestimonials";
 import Navbar from "../components/Navbar";
+import Footer from "../components/SectionFooter";
 
 const Home = () => {
   return (
@@ -38,10 +39,11 @@ const Home = () => {
       <Mission img={image8}/>
       <WhatWeDo/>
       <CounterElement
-        link="https://http://localhost:3000/"
+        link="#donate"
       />
       <Gallery/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 }

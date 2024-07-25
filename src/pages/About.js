@@ -1,6 +1,7 @@
 import Hero from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import AboutSecrion from "../components/SectionAbout";
+import Footer from "../components/SectionFooter";
 import img from "../photos/image2prime.jpg"
 
 const About = () => {
@@ -39,7 +40,9 @@ const About = () => {
           consectetur adipisicing elit. 
           Et suscipit necessitatibus iste maiores, 
           molestias provident dolorem odio accusamus 
-          consectetur adipisicing elit."/>
+          consectetur adipisicing elit."
+      />
+      <Footer/>
     </div>
   );
 }
