@@ -44,7 +44,7 @@ const ContactUs = () => {
           </div>
           <div className="form-box">
             <form>
-              <input type="email" placeholder="Enter Your Email Address" />
+              <input className="subscription-email" type="email" placeholder="Enter Your Email Address" />
               <input className="subscription-btn" type="submit" value="Subscribe" />
             </form>
           </div>

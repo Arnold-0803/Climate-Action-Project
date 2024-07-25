@@ -146,7 +146,7 @@ ul li a{
   }
 
   .menu-list li .menu-links:hover{
-    background: var(--nav-content-color);
+    background: var(--main-color-theme);
     color: var(--white-writing);
   }
 

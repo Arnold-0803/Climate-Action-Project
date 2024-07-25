@@ -196,7 +196,7 @@
   gap: 5px;
 }
 
-.form-box form input{
+.form-box form .subscription-email{
   align-self: center;
   width: 70%;
   height: 100%;
