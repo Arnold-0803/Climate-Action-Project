@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Climate-Action-Project/static/css/main.4a711001.css",
-    "main.js": "/Climate-Action-Project/static/js/main.25599acd.js",
+    "main.css": "/Climate-Action-Project/static/css/main.e407a953.css",
+    "main.js": "/Climate-Action-Project/static/js/main.bf7d5776.js",
     "static/media/image2prime.jpg": "/Climate-Action-Project/static/media/image2prime.869f49155e7a8773f5ea.jpg",
     "static/media/image5.jpg": "/Climate-Action-Project/static/media/image5.7b632be1a94b9e59a150.jpg",
     "static/media/matthew-smith-Rfflri94rs8-unsplash.jpg": "/Climate-Action-Project/static/media/matthew-smith-Rfflri94rs8-unsplash.91ce35ec2d80c7a4bf31.jpg",
@@ -14,11 +14,11 @@
     "static/media/image6.jpeg": "/Climate-Action-Project/static/media/image6.c386d2ca4b8189911bad.jpeg",
     "static/media/image4.jpeg": "/Climate-Action-Project/static/media/image4.64b9d2c1fae8156b16b1.jpeg",
     "index.html": "/Climate-Action-Project/index.html",
-    "main.4a711001.css.map": "/Climate-Action-Project/static/css/main.4a711001.css.map",
-    "main.25599acd.js.map": "/Climate-Action-Project/static/js/main.25599acd.js.map"
+    "main.e407a953.css.map": "/Climate-Action-Project/static/css/main.e407a953.css.map",
+    "main.bf7d5776.js.map": "/Climate-Action-Project/static/js/main.bf7d5776.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a711001.css",
-    "static/js/main.25599acd.js"
+    "static/css/main.e407a953.css",
+    "static/js/main.bf7d5776.js"
   ]
 }
