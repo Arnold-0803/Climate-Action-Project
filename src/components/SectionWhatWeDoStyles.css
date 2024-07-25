@@ -25,7 +25,7 @@
 }
 
 .box-card .card{
-  background: #fff;
+  background: var(--white-writing);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,12 +43,13 @@
 .box-card .card h4{
   padding: 10px 0;
   font-size: 1.4rem;
+  color: var(--main-color-theme);
 }
 
 .box-card .card p{
   text-align: center;
   font-size: 1.3rem;
-  color: #333;
+  color: var(--black--writing);
 }
 
 .box-card .card a{
@@ -65,12 +66,12 @@
 }
 
 .box-card .card a:hover{
-  color: var(--nav-content-color);
+  color: var(--main-color-theme);
   text-decoration: underline;
 }
 
 .box-card .card a:hover i{
-  color: var(--nav-content-color);
+  color: var(--main-color-themeS);
 }
 
 @media (max-width: 330px) {

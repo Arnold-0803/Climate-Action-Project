@@ -9,11 +9,11 @@
 }
 
 :root{
-  --nav-content-color: #416d19;
-  --main-color-theme: #1a5319;
+  --main-color-theme: #416d19;
   --nature-green: #8dc44d;
   --partly-bg-color: #f5f5f5;
-  --writing-color: #030303;
+  --black-writing: #333;
+  --white-writing: #fff;
 }
 
 .App{

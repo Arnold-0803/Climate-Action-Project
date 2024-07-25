@@ -1,0 +1,239 @@
+.contact-us-wrapper{
+  position: relative;
+  width: 100%;
+  background: var(--partly-bg-color);
+}
+
+.contact-us-wrapper .contact-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2%;
+}
+
+.contact-content .contact-form,
+.contact-content .contact-info{
+  flex: 1;
+}
+
+.contact-form{
+  border: 3px solid var(--nature-green);
+}
+
+.contact-form h3{
+  font-size: 2.3rem;
+  color: var(--main-color-theme);
+  text-align: center;
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact-form form input, form textarea{
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  outline: none;
+  border: 1.5px solid var(--main-color-theme);
+}
+
+.contact-form form textarea{
+  height: 150px;
+}
+
+.contact-form form .btn{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--nature-green);
+  color: var(--white-writing);
+  font-weight: 600;
+  border: 1.5px solid var(--nature-green);
+  cursor: pointer;
+}
+
+.contact-form form .btn:hover{
+  background: var(--white-writing);
+  color: var(--nature-green);
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-info .details,
+.contact-info .map{
+  border: 3px solid var(--nature-green);
+  padding: 10px;
+}
+
+.details h3{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--main-color-theme);
+}
+
+.details p.subheading{
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--black-writing);
+  padding-bottom: 8px;
+}
+
+.details p{
+  padding: 5px 0;
+  color: var(--black-writing);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.details p i{
+  color: var(--nature-green);
+  padding: 5px;
+}
+
+.details .social-media{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details .social-media a{
+  text-decoration: none;
+}
+
+.details .social-media a i{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-color-theme);
+  color: var(--white-writing);
+  margin-left: 15px;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid var(--main-color-theme);
+  transition: .5s ease-in-out;
+}
+
+.details .social-media a i:hover{
+  background: var(--white-writing);
+  color: var(--main-color-theme);
+}
+
+.map iframe{
+  width: 100%;
+  height: 200px;
+}
+
+.contact-us-wrapper .subscrition-wrapper{
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background: var(--main-color-theme);
+  margin-top: 3%;
+}
+
+.subscrition-wrapper .subscription-content{
+  width: 100%;
+  background: var(--nature-green);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-content .text-box,
+.subscription-content .form-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.text-box h3, .text-box p{
+  color: var(--white-writing);
+}
+
+.text-box h3{
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.text-box p{
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.form-box form{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.form-box form input{
+  align-self: center;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--partly-bg-color);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 1.3rem;
+  color: var(--black-writing);
+}
+
+.form-box form input.subscription-btn{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-color-theme);
+  color: var(--white-writing);
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+}
+
+.form-box form input.subscription-btn:hover{
+  background: var(--white-writing);
+  color: var(--main-color-theme);
+}
+
+@media (max-width: 450px) {
+  .text-box p{
+    font-size: 1.2rem;
+  }
+  .form-box form input{
+    font-size: 1rem;
+  }
+}

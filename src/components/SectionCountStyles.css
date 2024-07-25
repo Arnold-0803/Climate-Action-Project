@@ -28,7 +28,7 @@
 
 .counter-content h3{
   font-size: 2rem;
-  color: #fff;
+  color: var(--nature-green);
   text-align: center;
   padding-bottom: 20px;
 }
@@ -38,6 +38,7 @@
   font-weight: 600;
   font-size: 1.2rem;
   padding-bottom: 20px;
+  color: var(--white-writing);
 }
 
 .counter-content .donor-btn{
@@ -51,14 +52,14 @@
 
 .donor-btn a{
   display: block;
-  background: #fff;
-  color: var(--main-color-theme);
+  background: var(--white-writing);
+  color: var(--nature-green);
   padding: 15px 30px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   border-radius: 5px;
-  border: 1.5px solid #fff;
+  border: 1.5px solid var(--white-writing);
   transition: .5s ease-in-out;
 }
 
@@ -72,26 +73,35 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  border-left: 2px solid #000;
+  border-left: 2px solid var(--black-writing);
 }
 
 .counter i{
+  width: 50px;
+  height: 50px;
   font-size: 2rem;
-  color: var(--main-color-theme);
+  color: var(--nature-green);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .counter h1{
   font-size: 2.3rem;
   font-weight: bold;
   --webkit-background-clip: text;
-  color: #fff;
-  -webkit-text-stroke: 2px #fff;
+  color: var(--white-writing);
+  -webkit-text-stroke: 2px var(--white-writing);
 }
 
 .counter p{
   font-weight: 900;
   font-size: 1.2rem;
-  color: var(--writing-color);
+  color: var(--black-writing);
 }
 
 

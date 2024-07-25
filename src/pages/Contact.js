@@ -1,5 +1,6 @@
 import Hero from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import ContactUs from "../components/SectionContactUs";
 import img from "../photos/image5.jpg"
 
 const Contact = () => {
@@ -24,6 +25,7 @@ const Contact = () => {
           veritatis, tempora cupiditate quaerat 
           tenetur quis rem."
       />
+      <ContactUs/>
     </div>
   );
 }

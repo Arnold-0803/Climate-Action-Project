@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--main-color-theme);
 }
 
 
@@ -68,20 +69,20 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3rem;
-  background: var(--nav-content-color);
-  color: #fff;
+  background: var(--main-color-theme);
+  color: var(--white-writing);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: 1.5px solid var(--nav-content-color);
+  border: 1.5px solid var(--main-color-theme);
   overflow: hidden;
   transition: .5s ease-in-out;
 }
 
 .btn a:hover{
-  color: var(--nav-content-color);
-  background: #fff;
+  color: var(--main-color-theme);
+  background: var(--white-writing);
   letter-spacing: 1px;
 }
 
