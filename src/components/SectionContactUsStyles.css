@@ -196,23 +196,26 @@
   gap: 5px;
 }
 
-.form-box form .subscription-email{
-  align-self: center;
-  width: 70%;
+.form-box form input{
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--partly-bg-color);
   border: none;
   outline: none;
   border-radius: 8px;
-  padding: 8px;
   font-size: 1.3rem;
+  text-align: center;
+}
+
+.form-box form .subscription-email{
+  width: 70%;
+  background: var(--partly-bg-color);
+  padding: 8px;
   color: var(--black-writing);
 }
 
-.form-box form input.subscription-btn{
+.form-box form .subscription-btn{
   width: 30%;
   display: flex;
   justify-content: center;
@@ -220,7 +223,6 @@
   background: var(--main-color-theme);
   color: var(--white-writing);
   font-weight: 600;
-  padding: 0;
   cursor: pointer;
 }
 
