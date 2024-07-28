@@ -32,7 +32,7 @@ const ContactUs = () => {
             <iframe 
               title="makadara,nairobi"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7351.4620781574395!2d36.86041913903576!3d-1.2928975347554124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11608bf58a17%3A0x6795059b5b1e3c23!2sMaringo%20Estate%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1721846754480!5m2!1sen!2ske" 
-              style={{width:"600", height:"450", border:"0" }}allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              style={{width:"600", height:"450", border:"0" }}allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
         </div>
@@ -45,8 +45,13 @@ const ContactUs = () => {
           </div>
           <div className="form-box">
             <form>
-              <input className="subscription-email" type="email" placeholder="Enter Your Email Address" required />
-              <input className="subscription-btn" type="submit" value="Subscribe" />
+              <div className="input-box">
+                <input className="subscription-email" type="email" placeholder="Enter Your Email Address" required />
+                <input className="subscription-btn" type="submit" value="Subscribe" />
+              </div>
+              <div className="checkbox">
+                <input type="checkbox" required /> <span>I understand that PLP will process my information in accordance with their Privacy Policy.</span>
+              </div>
             </form>
           </div>
         </div>
