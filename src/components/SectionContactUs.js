@@ -50,7 +50,7 @@ const ContactUs = () => {
                 <input className="subscription-btn" type="submit" value="Subscribe" />
               </div>
               <div className="checkbox">
-                <input type="checkbox" required /> <span>I understand that PLP will process my information in accordance with their Privacy Policy.</span>
+                <input type="checkbox" required /> <span>I understand that EverGreen will process my information in accordance with their Privacy Policy.</span>
               </div>
             </form>
           </div>

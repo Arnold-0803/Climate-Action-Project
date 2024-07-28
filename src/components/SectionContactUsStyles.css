@@ -251,7 +251,8 @@ form .checkbox{
 }
 
 .checkbox span{
-  font-size: 1.02rem;
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 @media (max-width: 450px) {
@@ -273,6 +274,10 @@ form .checkbox{
 
   form .input-box .subscription-btn{
     width: 50%;
+  }
+
+  .checkbox span{
+    font-size: 1.1rem;
   }
 }
 
