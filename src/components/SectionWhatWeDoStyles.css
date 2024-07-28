@@ -49,7 +49,7 @@
 .box-card .card p{
   text-align: center;
   font-size: 1.3rem;
-  color: var(--black--writing);
+  color: var(--main-writing-color);
 }
 
 .box-card .card a{

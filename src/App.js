@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Other/Projects";
 import Events from "./pages/Other/Events";
@@ -11,7 +11,7 @@ import ScrollToTop from "./assets/ScrollToTop";
 function App() {
   return (
     <div className="App">
-      <Router basename="/Climate-Action-Project">
+      <Router>
         <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home/>}/>

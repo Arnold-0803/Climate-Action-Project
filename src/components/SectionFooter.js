@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-content">
-          <h5>Communities</h5>
+          <h5>Community</h5>
           <a className="footer-links" href="#link">Eastland-Fam</a>
           <a className="footer-links" href="#link">GitHub</a>
         </div>
@@ -33,9 +33,7 @@ const Footer = () => {
       </div>
       <div className="copyright-wrapper">
         <p className="copyright-text">Powered by arnold_kiritu ©2024 All Rights Reserved</p>
-        <p className="privacy-policy">
-          <a href="#privacy">Privacy</a> <span>|</span> <a href="#policy">Policy</a>
-        </p>
+        <p className="privacy-policy"><a href="#privacy">Privacy Policy</a></p>
       </div>
     </div>
   );
