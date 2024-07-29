@@ -42,6 +42,8 @@
   border-radius: 5px;
 }
 
+
+/*MEDIA QUERY*/
 @media (max-width: 400px) {
   .about-wrapper{
     padding: 30px 8px;

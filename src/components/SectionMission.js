@@ -15,6 +15,14 @@ const Mission = (props) => {
             cupiditate provident voluptate 
             amet deleniti earum saepe nemo.
           </p>
+          <ul className="mission-list">
+            <li>Lorem ipsum dolor sit amet elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet elit.
+            </li>
+          </ul>
           <div className="btn">
             <a href="#join">Join Movement</a>
             <a href="#learn">Learn More</a>

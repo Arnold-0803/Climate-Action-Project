@@ -1,13 +1,14 @@
 .counter-element{
   position: relative;
   width: 100%;
-  min-height: 20vh;
   background: var(--main-color-theme);
   background-image: linear-gradient(rgba(141, 196, 77, 0.4), rgba(255, 255, 255, 0.4)), url(../photos/matthew-smith-Rfflri94rs8-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
   margin-top: 3%;
 }
@@ -69,20 +70,24 @@
 }
 
 .counter-box{
+  position: relative;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   border-left: 2px solid var(--black-writing);
+  justify-content: center;
+  align-items: center;
 }
 
 .counter i{
+  display: inline-block;
   width: 50px;
   height: 50px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--nature-green);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
-  padding: 30px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,7 +96,7 @@
 }
 
 .counter h1{
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: bold;
   --webkit-background-clip: text;
   color: var(--white-writing);
@@ -112,7 +117,7 @@
 
 
 
-
+/*MEDIA QUERY*/
 
 @media (max-width: 330px) {
   .counter-element{
@@ -133,5 +138,15 @@
   .counter-box{
     border-left: none;
     margin-top: -90px;
+  }
+
+  .counter i{
+    width: 35px;
+    height: 35px;
+    font-size: 1.4rem;
+  }
+
+  .counter h1{
+    font-size: 1.5rem;
   }
 }

@@ -88,10 +88,7 @@
 
 
 
-
-
-
-
+/*MEDIA QUERY*/
 @media (max-width: 330px) {
   .gallery{
     position: absolute;

@@ -15,6 +15,7 @@ const WhatWeDo = () => {
               <i className="fa-solid fa-chevron-right"></i>
               <i className="fa-solid fa-chevron-right"></i>
             </a>
+            <div className="gradient"></div>
           </div>
         ))}
       </div>
