@@ -3,7 +3,7 @@ import "./SectionMissionStyles.css";
 const Mission = (props) => {
   return (
     <div className="mission-section">
-      <h3>Our Mission</h3>
+      <h3>Our Values</h3>
       <div className="container">
         <div className="content">
           <p>Lorem ipsum dolor sit 

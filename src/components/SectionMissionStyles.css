@@ -59,14 +59,36 @@
 }
 
 .content .mission-list li{
-  text-align: justify;
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 10px;
 }
 
 .content .mission-list li::before{
-  content: "\27A1";
-  color: var(--nature-green);
+  position: absolute;
+  left: 0;
+  width: .8em;
+  height: .8em;
+  display: block;
+  content: "";
+  background: var(--nature-green);
+  border-radius: 50%;
+  top: 0;
+  padding: 5px;
 }
 
+.content .mission-list li::after{
+  position: absolute;
+  display: block;
+  content: "";
+  width: .3em;
+  height: .6em;
+  border: solid var(--white-writing);
+  border-width: 0 .200em .200em 0;
+  left: .45em;
+  top: 20%;
+  transform: rotate(45deg);
+}
 
 .container .image img{
   width: 100%;
@@ -122,5 +144,13 @@
 }
 
 @media (max-width: 676px) {
-  
+  .btn a{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 352px) {
+  .content .mission-list li::after{
+    top: 10%;
+  }
 }
