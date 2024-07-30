@@ -257,6 +257,30 @@ form .checkbox{
 
 /*MEDIA QUERY*/
 
+@media (max-width: 800px) {
+  form .input-box input{
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  form .input-box{
+    flex-direction: column;
+  }
+
+  form .input-box .subscription-email{
+    width: 100%;
+  }
+
+  form .input-box .subscription-btn{
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+
+
 @media (max-width: 450px) {
   .text-box p{
     font-size: 1.2rem;
@@ -280,26 +304,5 @@ form .checkbox{
 
   .checkbox span{
     font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 700px) {
-
-  form .input-box{
-    flex-direction: column;
-  }
-
-  form .input-box .subscription-email{
-    width: 100%;
-  }
-
-  form .input-box .subscription-btn{
-    width: 50%;
-  }
-}
-
-@media (max-width: 800px) {
-  form .input-box input{
-    font-size: 1rem;
   }
 }

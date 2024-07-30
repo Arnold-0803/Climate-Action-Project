@@ -153,4 +153,8 @@
   .content .mission-list li::after{
     top: 10%;
   }
+
+  .btn a{
+    padding: 8px 12px;
+  }
 }
