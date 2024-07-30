@@ -149,12 +149,22 @@
   }
 }
 
+@media (max-width: 450px) {
+  .btn a{
+    font-size: 1rem;
+  }
+
+  .btn a:hover{
+    letter-spacing: 0;
+  }
+}
+
 @media (max-width: 352px) {
   .content .mission-list li::after{
     top: 10%;
   }
 
   .btn a{
-    padding: 8px 12px;
+    padding: 8px 10px;
   }
 }
