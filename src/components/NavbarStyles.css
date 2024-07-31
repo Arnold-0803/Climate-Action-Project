@@ -101,6 +101,19 @@ ul li a{
   display: none;
 }
 
+.menubar i{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background: var(--nature-green);
+  color: var(--white-writing);
+  border-radius: 5px;
+  font-size: 1.6rem;
+}
+
 
 
 /*MEDIA QUERY*/
@@ -110,19 +123,7 @@ ul li a{
   }
 
   .menubar{
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45px;
-    height: 45px;
-    background: var(--nature-green);
-    border-radius: 5px;
-  }
-
-  .menubar i{
-    font-size: 1.6rem;
-    color: var(--white-writing);
+    display: inline-block;
   }
 
   .menu-list{
