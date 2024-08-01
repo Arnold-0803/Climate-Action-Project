@@ -58,11 +58,14 @@ a{
   padding: 10px 0;
 }
 
+.social-media a{
+  padding: 5px;
+}
+
 .social-media a i{
   width: 35px;
   height: 35px;
   background: var(--nature-green);
-  margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
